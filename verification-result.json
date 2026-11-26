@@ -1,0 +1,38 @@
+{
+  "day": 5,
+  "status": "passed",
+  "testedAt": "2026-11-23T21:11:29.190Z",
+  "http": {
+    "createdId": 1044,
+    "statuses": [
+      200,
+      201,
+      400,
+      401,
+      403,
+      404,
+      409,
+      422
+    ],
+    "roles": 4
+  },
+  "browser": {
+    "startTime": "2026-11-23T21:11:12.400Z",
+    "duration": 16766.837,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "persistedAfterRestart": true,
+  "unitIntegration": {
+    "passed": 17,
+    "failed": 0,
+    "runner": "Vitest"
+  },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed, zero warnings",
+    "build": "passed"
+  }
+}
